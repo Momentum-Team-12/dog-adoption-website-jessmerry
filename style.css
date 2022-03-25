@@ -4,3 +4,21 @@
     color:white;
     border-bottom: 5px solid #89DEEF;
 }
+body {
+    font-family: Oswald;
+}
+.character {
+    display:flex; 
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.button {
+    background-color: #89DEEF;
+    border-radius: 20px;
+    padding: 3px
+}
+.floofs {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
