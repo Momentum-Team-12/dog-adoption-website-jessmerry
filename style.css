@@ -1,11 +1,15 @@
+title {
+    font-family: Oswald;
+}
+body {
+
+}
 .hvs {
     padding: 20px;
     background-color: #004175;
     color:white;
     border-bottom: 5px solid #89DEEF;
 }
-body {
-    font-family: Oswald;
 }
 .character {
     display:flex; 
@@ -15,7 +19,7 @@ body {
 .button {
     background-color: #89DEEF;
     border-radius: 20px;
-    padding: 3px
+    padding: 3px;
     text-align: center;
 }
 .floofs-top {
@@ -35,4 +39,46 @@ body {
     display:flex;
     flex-direction: row;
     justify-content: center;
+}
+.p2 {
+    text-size: 
+}
+footer {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+.footer1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.donate {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.footer2 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.volunteer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.footer3 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.location {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
