@@ -4,6 +4,10 @@ title {
 body {
     font-family: "Oswald", "Open Sans", sans-serif;
 }
+.body2 {
+    margin-right: 5%;
+    margin-left: 5%;
+}
 .hvs {
     padding: 20px;
     background-color: #004175;
@@ -25,32 +29,37 @@ body {
     border-radius: 20px;
     padding: 3px;
     text-align: center;
+    font-size: small;
 }
 .floofs-top {
-    border: 3px solid #89DEEF;
     display:flex;
     flex-direction: row;
-    gap: 3%;
+    gap: 1%;
     justify-content: center;
 }
 .floofs-middle {
-    border: 3px solid #004175;
     display:flex;
     flex-direction: row;
-    gap: 3%;
+    gap: 1%;
     justify-content: center;
 }
 .floofs-bottom {
-    border: 3px dotted #004176;
     display:flex;
     flex-direction: row;
-    gap: 3%;
+    gap: 1%;
     justify-content: center;
 }
-.p2 {
-    text-size: 
-}
 footer {
+    display: flex;
+    flex: 1 1 auto;
+    text-align: center;
+    background-color: #A6A9F0;
+}
+p2 {
+    text-align: center;
+    background-position: center;
+}
+/* footer {
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -88,4 +97,4 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%)
-}
+} */
